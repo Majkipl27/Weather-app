@@ -1,0 +1,63 @@
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    text-align: center !important;
+}
+
+.main form {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.main input {
+    width: 250px;
+    font-size: 32px;
+    padding: 5px;
+    appearance: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-bottom: 2px solid white;
+    color: white;
+    transition: 200ms border-color linear;
+}
+
+.main input:focus {
+    outline: none;
+    border-color: rgb(0, 255, 0);
+}
+
+.main button {
+    background: #4ab82f;
+    border: 3px solid #4ab82f;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    transition: 100ms all linear;
+}
+
+.main button:hover,
+.main button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #4ab82f;
+}
